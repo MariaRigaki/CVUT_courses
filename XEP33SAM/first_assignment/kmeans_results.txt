@@ -1,0 +1,108 @@
+ubuntu@ip-172-31-9-16:~/repos/XEP33SAM$ python kmeans.py 
+
+****************************************
+Starting approximate k-means with k-d trees (90% target precision)
+Run 0, distance: 204883260000.0, elapsed_time: 142.69380807876587
+Run 1, distance: 140859870000.0, elapsed_time: 281.8626117706299
+Run 2, distance: 136948070000.0, elapsed_time: 421.92095398902893
+Run 3, distance: 135391720000.0, elapsed_time: 561.4592514038086
+Run 4, distance: 134377456000.0, elapsed_time: 701.3046810626984
+Run 5, distance: 133799040000.0, elapsed_time: 840.9917500019073
+Run 6, distance: 133352980000.0, elapsed_time: 975.8834767341614
+Run 7, distance: 133138130000.0, elapsed_time: 1108.5106091499329
+Run 8, distance: 132852520000.0, elapsed_time: 1240.980916261673
+Run 9, distance: 132608130000.0, elapsed_time: 1373.227376461029
+Run 10, distance: 132497465000.0, elapsed_time: 1505.115221977234
+Run 11, distance: 132339155000.0, elapsed_time: 1651.9999208450317
+Run 12, distance: 132282835000.0, elapsed_time: 1897.4291450977325
+Run 13, distance: 132106400000.0, elapsed_time: 2078.8458065986633
+Run 14, distance: 132032720000.0, elapsed_time: 2277.416111469269
+Run 15, distance: 131935610000.0, elapsed_time: 2520.801157474518
+Run 16, distance: 131936690000.0, elapsed_time: 2665.4326615333557
+Run 17, distance: 131884564000.0, elapsed_time: 2912.5080897808075
+Run 18, distance: 131763585000.0, elapsed_time: 3096.8963754177094
+Run 19, distance: 131749710000.0, elapsed_time: 3296.714730501175
+Run 20, distance: 131726720000.0, elapsed_time: 3537.471741437912
+Run 21, distance: 131680560000.0, elapsed_time: 3682.3083441257477
+Run 22, distance: 131632250000.0, elapsed_time: 3926.315529346466
+Run 23, distance: 131566490000.0, elapsed_time: 4116.448930501938
+Run 24, distance: 131528020000.0, elapsed_time: 4303.000133752823
+Run 25, distance: 131573940000.0, elapsed_time: 4550.974036216736
+Run 26, distance: 131537350000.0, elapsed_time: 4689.122923612595
+Run 27, distance: 131506300000.0, elapsed_time: 4926.8541922569275
+Run 28, distance: 131442770000.0, elapsed_time: 5125.472675561905
+Run 29, distance: 131429180000.0, elapsed_time: 5317.0520968437195
+Distance based on flann: 131429180000.0
+Total distance from assigned centroids: 130597060000.0
+Execution time: 5327.073472738266 seconds: 
+
+****************************************
+Starting approximate k-means with k-means search tree (90% target precision)
+Run 0, distance: 203709870000.0, elapsed_time: 251.95627164840698
+Run 1, distance: 141084670000.0, elapsed_time: 398.7807877063751
+Run 2, distance: 137602480000.0, elapsed_time: 647.8821294307709
+Run 3, distance: 136169900000.0, elapsed_time: 838.3360366821289
+Run 4, distance: 135123670000.0, elapsed_time: 1039.2793881893158
+Run 5, distance: 134652680000.0, elapsed_time: 1282.7429058551788
+Run 6, distance: 134243140000.0, elapsed_time: 1420.2461650371552
+Run 7, distance: 134020550000.0, elapsed_time: 1554.9589190483093
+Run 8, distance: 133883750000.0, elapsed_time: 1689.3174686431885
+Run 9, distance: 133661114000.0, elapsed_time: 1823.529489994049
+Run 10, distance: 133621236000.0, elapsed_time: 1957.7798223495483
+Run 11, distance: 133394055000.0, elapsed_time: 2091.8417031764984
+Run 12, distance: 133583850000.0, elapsed_time: 2226.9270236492157
+Run 13, distance: 133244100000.0, elapsed_time: 2360.88334441185
+Run 14, distance: 132998940000.0, elapsed_time: 2495.6880824565887
+Run 15, distance: 133146520000.0, elapsed_time: 2630.221720457077
+Run 16, distance: 133348704000.0, elapsed_time: 2764.412146091461
+Run 17, distance: 133398480000.0, elapsed_time: 2898.343333721161
+Run 18, distance: 133144060000.0, elapsed_time: 3032.773504972458
+Run 19, distance: 133124325000.0, elapsed_time: 3166.952481508255
+Run 20, distance: 132887550000.0, elapsed_time: 3300.9762625694275
+Run 21, distance: 133150420000.0, elapsed_time: 3435.2000193595886
+Run 22, distance: 132699955000.0, elapsed_time: 3569.5433554649353
+Run 23, distance: 132775215000.0, elapsed_time: 3703.5344960689545
+Run 24, distance: 133049960000.0, elapsed_time: 3837.9017703533173
+Run 25, distance: 133444760000.0, elapsed_time: 3972.367023229599
+Run 26, distance: 133168700000.0, elapsed_time: 4106.561295747757
+Run 27, distance: 132998970000.0, elapsed_time: 4240.782450914383
+Run 28, distance: 133060035000.0, elapsed_time: 4375.021767854691
+Run 29, distance: 132816620000.0, elapsed_time: 4509.605223894119
+Distance based on flann: 132816620000.0
+Total distance from assigned centroids: 130916070000.0
+Execution time: 4514.442174911499 seconds: 
+****************************************
+Starting k-means with linear distance
+Run 0, distance: 189217780000.0, elapsed_time: 828.9810922145844
+Run 1, distance: 134226770000.0, elapsed_time: 1658.5741744041443
+Run 2, distance: 130532480000.0, elapsed_time: 2485.9843244552612
+Run 3, distance: 129032710000.0, elapsed_time: 3313.543135404587
+Run 4, distance: 128192250000.0, elapsed_time: 4136.146420955658
+Run 5, distance: 127645580000.0, elapsed_time: 4960.739265203476
+Run 6, distance: 127258590000.0, elapsed_time: 5796.705131053925
+Run 7, distance: 126969496000.0, elapsed_time: 6658.463510751724
+Run 8, distance: 126747060000.0, elapsed_time: 7523.328630685806
+Run 9, distance: 126570330000.0, elapsed_time: 8365.304365634918
+Run 10, distance: 126428170000.0, elapsed_time: 9180.226075172424
+Run 11, distance: 126310880000.0, elapsed_time: 10042.843010425568
+Run 12, distance: 126211980000.0, elapsed_time: 10951.597564697266
+Run 13, distance: 126127270000.0, elapsed_time: 11858.615861177444
+Run 14, distance: 126054460000.0, elapsed_time: 12771.389043569565
+Run 15, distance: 125991060000.0, elapsed_time: 13691.681507825851
+Run 16, distance: 125935110000.0, elapsed_time: 14610.689833164215
+Run 17, distance: 125885140000.0, elapsed_time: 15540.27971792221
+Run 18, distance: 125840440000.0, elapsed_time: 16451.656339406967
+Run 19, distance: 125800560000.0, elapsed_time: 17325.902562856674
+Run 20, distance: 125764600000.0, elapsed_time: 18199.198074817657
+Run 21, distance: 125732000000.0, elapsed_time: 19072.490176200867
+Run 22, distance: 125702230000.0, elapsed_time: 19952.74216079712
+Run 23, distance: 125675040000.0, elapsed_time: 20831.66420149803
+Run 24, distance: 125650230000.0, elapsed_time: 21704.124715805054
+Run 25, distance: 125627240000.0, elapsed_time: 22584.260396957397
+Run 26, distance: 125606120000.0, elapsed_time: 23461.03928565979
+Run 27, distance: 125586820000.0, elapsed_time: 24337.901977539062
+Run 28, distance: 125569110000.0, elapsed_time: 25210.692366838455
+Run 29, distance: 125552940000.0, elapsed_time: 26090.16899895668
+Distance based on flann: 125552940000.0
+Total distance from assigned centroids: 125307290000.0
+Execution time: 26095.056870937347 seconds: 
