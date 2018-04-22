@@ -101,4 +101,4 @@ ENV/
 .mypy_cache/
 
 # matlab
-.mexa64
+*.mexa64
